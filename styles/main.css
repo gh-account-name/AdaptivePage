@@ -2,25 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
 /* блок block-grid */
-@import url('/styles/block-grid.css');
+@import url('./block-grid.css');
 
 /* блок block-title */
-@import url('/styles/block-title.css');
+@import url('./block-title.css');
 
 /* блок block-text */
-@import url('/styles/block-text.css');
+@import url('./block-text.css');
 
 /* блок block-icons */
-@import url('/styles/block-icons.css');
+@import url('./block-icons.css');
 
 /* блок icon */
-@import url('/styles/icon.css');
+@import url('./icon.css');
 
 /* блок block-filler */
-@import url('/styles/block-filler.css');
+@import url('./block-filler.css');
 
 /* блок block-image */
-@import url('/styles/block-image.css');
+@import url('./block-image.css');
 
 *{
 	box-sizing: border-box;
