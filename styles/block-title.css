@@ -1,0 +1,73 @@
+.block-title{
+	border-color: white;
+	height: 100%;
+}
+
+.block-title__wrapper{
+	padding: 17vh 5vw 5vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+.block-title__text{
+	font-weight: 600;
+	font-size: calc(1920px*64/1280); /* calc(текущая ширина экрана * размер шрифта в макете * ширина макета). Для "резинового" текста поставить 5vw (P.s. не зумится) */
+	margin: 0;
+}
+
+
+/* Адаптив */
+
+@media (max-width:1536px) {
+	.block-title__text{
+		font-size: calc(1536px*64/1280);
+	}
+}
+
+@media (max-width:1200px) {
+	.block-title__text{
+		font-size: calc(1200px*64/1280);
+	}
+}
+
+@media (max-width:992px) {
+	.block-title__text{
+		font-size: calc(992px*64/1280);
+	}
+}
+
+@media (max-width:768px) {
+	.block-title__text{
+		font-size: calc(768px*64/1280);
+	}
+}
+
+@media (max-width:480px) {
+	.block-title__text{
+		font-size: calc(480px*64/1280);
+	}
+}
+
+@media (orientation: portrait) and (max-width:992px){
+	.block-title__wrapper{
+		justify-content: center;
+		padding: 5vw;
+	}
+}	
+
+@media (orientation: portrait) and (max-width:768px){
+	.block-title__text{
+		font-size: calc(768px*64/1280);
+	}
+}	
+
+@media(orientation: portrait) and  (max-width:480px) {
+	.block-title__text{
+		font-size: calc(480px*64/1280);
+	}
+}
+
+
+
