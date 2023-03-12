@@ -3,7 +3,7 @@
 }
 
 .block-text__wrapper {
-	padding: 12vh 5vw 5vw;
+	padding: 12vh 5vw 0 5vw;
 	display: flex;
 	justify-content: center;
 	height: 100%;
