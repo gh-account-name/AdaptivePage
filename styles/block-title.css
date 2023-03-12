@@ -15,10 +15,17 @@
 	font-weight: 600;
 	font-size: calc(1920px*64/1280); /* calc(текущая ширина экрана * размер шрифта в макете * ширина макета). Для "резинового" текста поставить 5vw (P.s. не зумится) */
 	margin: 0;
+	width: min-content;
 }
 
 
 /* Адаптив */
+
+@media (min-width: 2960px) {
+	.block-title__text{
+		width: max-content;
+	}
+}
 
 @media (max-width:1536px) {
 	.block-title__text{
@@ -54,6 +61,13 @@
 	.block-title__wrapper{
 		justify-content: center;
 		padding: 5vw;
+		position: relative;
+	}
+
+	.block-title__text{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
 	}
 }	
 

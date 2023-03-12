@@ -69,10 +69,21 @@
 	}
 }	
 
+@media(orientation: portrait) and  (max-width:560px) {
+	.block-text__text{
+		font-size: calc(560px*18/1280*2);
+	}
+}
+
 @media(orientation: portrait) and  (max-width:480px) {
 	.block-text__text{
 		font-size: calc(480px*18/1280*2);
 	}
 }
 
+@media(orientation: portrait) and  (max-width:360px) {
+	.block-text__text{
+		font-size: calc(360px*18/1280*2);
+	}
+}
 

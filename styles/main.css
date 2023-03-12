@@ -1,6 +1,9 @@
 /* Шрифт Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
+/* общие правила */
+@import url('./common.css');
+
 /* блок block-grid */
 @import url('./block-grid.css');
 
@@ -10,72 +13,16 @@
 /* блок block-text */
 @import url('./block-text.css');
 
-/* блок block-icons */
-@import url('./block-icons.css');
-
 /* блок icon */
 @import url('./icon.css');
 
-/* блок block-filler */
-@import url('./block-filler.css');
-
 /* блок block-image */
-@import url('./block-image.css');
+@import url('./block-picture.css');
 
-*{
-	box-sizing: border-box;
-}
 
-body{
-	margin: 0;
-	font-family: Inter, sans-serif;
-}
 
-.visually-hidden{
-	visibility: hidden;
-	transform: scale(0);
-	position: fixed;
-}
 
-.container{
-	overflow: hidden; /* Без этого появляется какая-то непонятная белая тонкая полоска внизу и, соответственно, появляется скролл. Искал причину - не нашёл ¯\(-_-)/¯ */
-}
 
-.icon:nth-child(2){
-	margin: 0 24px;
-}
 
-.block-icons{
-	display: flex;
-	justify-content: center;
-	margin-top: auto;
-}
 
-@media (max-width:992px) and (orientation: portrait){
-	.block-icons{
-		width: 100%;
-		justify-content: space-between;
-		margin-top: auto;
-	}
 
-	.icon{
-		width: 40px;
-		margin: 0;
-	}
-
-	.block-title__wrapper{
-		position: relative;
-	}
-
-	.block-title__text{
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-	}
-}
-
-@media (max-width:480px) and (orientation: portrait){
-	.icon{
-		width: 30px;
-	}
-}

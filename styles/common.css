@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: Inter, sans-serif;
+}
+
+.visually-hidden{
+	visibility: hidden;
+	transform: scale(0);
+	position: fixed;
+}
+
+.container{
+	overflow: hidden; /* Без этого появляется какая-то непонятная белая тонкая полоска внизу и, соответственно, появляется скролл. Искал причину - не нашёл ¯\(-_-)/¯ */
+}
+
+.block-icons{
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+}

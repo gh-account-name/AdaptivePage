@@ -9,6 +9,14 @@
 	height: 100%;
 }
 
+.block-grid__cell_brown{
+	background-color: #A6806B;
+}
+
+.block-grid__cell_red{
+	background-color: #A61C1C;
+}
+
 
 /* Выравнивание блоков по сетке */
 
@@ -74,7 +82,7 @@
 @media (orientation: portrait){
 	.block-grid{
 		grid-template-columns: 48% 28% 24%;
-		grid-template-rows: 22% 20% 20% 16% 6% 16%;
+		grid-template-rows: 20% 18% 18% 18% 10% 16%;
 	}
 
 	
