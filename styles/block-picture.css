@@ -1,12 +1,11 @@
-.block-picture{
+.block-picture {
 	width: 100%;
 	height: 100%;
 	display: block;
 }
 
-.block-picture__img{
+.block-picture__img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
-

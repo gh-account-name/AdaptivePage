@@ -1,9 +1,9 @@
-.block-title{
+.block-title {
 	border-color: white;
 	height: 100%;
 }
 
-.block-title__wrapper{
+.block-title__wrapper {
 	padding: 17vh 5vw 5vw;
 	display: flex;
 	align-items: center;
@@ -11,7 +11,7 @@
 	height: 100%;
 }
 
-.block-title__text{
+.block-title__text {
 	font-weight: 600;
 	font-size: calc(1920px*64/1280); /* calc(текущая ширина экрана * размер шрифта в макете * ширина макета). Для "резинового" текста поставить 5vw (P.s. не зумится) */
 	margin: 0;
@@ -22,66 +22,63 @@
 /* Адаптив */
 
 @media (min-width: 2960px) {
-	.block-title__text{
+	.block-title__text {
 		width: max-content;
 	}
 }
 
 @media (max-width:1536px) {
-	.block-title__text{
+	.block-title__text {
 		font-size: calc(1536px*64/1280);
 	}
 }
 
 @media (max-width:1200px) {
-	.block-title__text{
+	.block-title__text {
 		font-size: calc(1200px*64/1280);
 	}
 }
 
 @media (max-width:992px) {
-	.block-title__text{
+	.block-title__text {
 		font-size: calc(992px*64/1280);
 	}
 }
 
 @media (max-width:768px) {
-	.block-title__text{
+	.block-title__text {
 		font-size: calc(768px*64/1280);
 	}
 }
 
 @media (max-width:480px) {
-	.block-title__text{
+	.block-title__text {
 		font-size: calc(480px*64/1280);
 	}
 }
 
-@media (orientation: portrait) and (max-width:992px){
-	.block-title__wrapper{
+@media (orientation: portrait) and (max-width:992px) {
+	.block-title__wrapper {
 		justify-content: center;
 		padding: 5vw;
 		position: relative;
 	}
 
-	.block-title__text{
+	.block-title__text {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
 	}
-}	
+}
 
-@media (orientation: portrait) and (max-width:768px){
-	.block-title__text{
+@media (orientation: portrait) and (max-width:768px) {
+	.block-title__text {
 		font-size: calc(768px*64/1280);
-	}
-}	
-
-@media(orientation: portrait) and  (max-width:480px) {
-	.block-title__text{
-		font-size: calc(480px*64/1280);
 	}
 }
 
-
-
+@media(orientation: portrait) and (max-width:480px) {
+	.block-title__text {
+		font-size: calc(480px*64/1280);
+	}
+}
