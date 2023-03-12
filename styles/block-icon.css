@@ -1,31 +1,31 @@
-.icon {
+.block-icon {
 	width: auto;
 }
 
-.icon__img {
+.block-icon__img {
 	width: 100%;
 }
 
-.icon_lr-margins {
+.block-icon_lr-margins {
 	margin: 0 24px;
 }
 
 @media (max-width:992px) and (orientation: portrait) {
-	.icon {
+	.block-icon {
 		padding: 10px;
 	}
 
-	.icon__img {
+	.block-icon__img {
 		height: 20px;
 	}
 }
 
 @media (max-width:480px) and (orientation: portrait) {
-	.icon {
+	.block-icon {
 		margin: 0 !important;
 	}
 
-	.icon__img {
+	.block-icon__img {
 		height: 15px;
 	}
 }

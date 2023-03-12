@@ -13,8 +13,8 @@
 /* блок block-text */
 @import url('./block-text.css');
 
-/* блок icon */
-@import url('./icon.css');
+/* блок block-icon */
+@import url('./block-icon.css');
 
 /* блок block-image */
 @import url('./block-picture.css');
